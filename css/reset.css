@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* CSS reset */
+
+:root {
+    --black: #252A34;
+    --white: #F9F7F7;
+    --main-typography: Arial, sans-serif, Helvetica;
+    --second-typography: Verdana;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    font-family: var(--main-typography);
+}
+
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+p a {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+}
+
+
