@@ -27,6 +27,7 @@ body {
     display: grid;
     grid-template-rows: 1fr auto;
     font-family: var(--main-typography);
+    background-color: var(--white);
 }
 
 img, picture, video, iframe, figure {
