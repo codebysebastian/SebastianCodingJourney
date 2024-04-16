@@ -39,7 +39,7 @@ header {
     display: none; /* by default */
 }
 
-.main-nav__span {
+.dropdown-menu {
     width: 100%;
     padding: 1.5em 0;
     display: none; /* by default */
@@ -70,6 +70,63 @@ header {
 
 main {
     margin-top: 46px;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
+
+/* hero section styles */
+
+.hero-section {
+    width: 100%;
+    padding: 2em 0;
+    font-size: 10px;
+    display: grid;
+    gap: 1em;
+    /* border: 1px solid red; */
+    /* grid-template-rows: auto auto; */
+}
+
+.hero-section__header {
+    width: 100%;
+    margin: auto;
+}
+
+.hero-section__figure {
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.hero-section__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+.hero-section__title {
+    width: 100%;
+    font-size: 2.5em;
+}
+
+.hero-section__text {
+    width: 100%;
+    font-size: 1.6em;
+}
+
+.hero-section__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4em 4em;
+    gap: 1em;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
