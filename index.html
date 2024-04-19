@@ -7,38 +7,31 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header>
-    <nav class="main-nav">
-      <!-- mobile -->
-      <div class="main-nav--mobile">
-        <div class="main-nav__div">
-          <div class="main-nav__menu--container">
-            <img class="main-nav__menu" src="assets/icons/menu.svg" alt="menu icon">
-            <img class="main-nav__menu menu--open" src="assets/icons/menu_open.svg" alt="menu icon open">
-          </div>
-        </div>
-        <span class="dropdown-menu">
-          <li><a class="main-nav__link link--mobile" href="#">Home</a></li>
-          <li><a class="main-nav__link link--mobile" href="#">About</a></li>
-          <li><a class="main-nav__link link--mobile" href="#">Projects</a></li>
-          <li><a class="main-nav__link link--mobile" href="#">Contact</a></li>
-        </span>
+  <header class="header">
+    <!-- desktop menu -->
+    <nav class="main-nav--desktop">
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Home</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">About</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Projects</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Contact me</a></li>
+      </ul>
+    </nav>
+    <!-- mobile menu -->
+    <nav class="main-nav--mobile">
+      <div class="main-nav__menu-container">
+        <img class="main-nav__menu" src="assets/icons/menu.svg" alt="menu icon">
+        <img class="main-nav__menu menu--open" src="assets/icons/menu_open.svg" alt="menu icon">
       </div>
-      <!-- desktop -->
-      <div class="main-nav--desktop">
-        <div class="main-nav__brand--container">
-          <h1 class="main-nav__brand">Codebysebastian</h1>
-        </div>
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Home</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">About</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Projects</a></li>
-          <li class="main-nav__item"><a class="main-nav__link" href="#">Contact</a></li>
-        </ul>
-      </div>
+      <ul class="dropdown-menu">
+        <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Home</a></li>
+        <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">About</a></li>
+        <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Projects</a></li>
+        <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="#">Contact</a></li>
+      </ul>
     </nav>
   </header>
-  <main>
+  <main class="main">
     <!-- hero section -->
     <section class="hero-section">
       <div class="hero-section__header">
