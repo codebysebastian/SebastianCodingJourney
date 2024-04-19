@@ -175,10 +175,6 @@ main {
 }
 
 .stack__item {
-    width: max-content;
-}
-
-.stack__picture {
     width: 4em;
     cursor: pointer;
 }
