@@ -191,13 +191,14 @@
 .about-me {
     width: 100%;
     margin: 3em 0;
-    padding: 2em 0;
+    padding: 2em;
     border: 1px solid var(--black);
     font-size: 12px;
 }
 
 .about-me__title {
     width: 100%;
+    margin: 1em 0;
     font-size: 2em;
     text-align: center;
 }
@@ -206,6 +207,83 @@
     width: 100%;
     font-size: 1.3em;
     text-align: justify;
+}
+
+/* projects styles */
+
+.project {
+    width: 100%;
+    font-size: 10px;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 5em;
+}
+
+.project__title {
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.project__text {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 1em;
+}
+
+.card {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 1em;
+}
+
+.card__header {
+    width: 70%;
+    height: 15em;
+    margin: auto;
+    background-color: var(--black);
+}
+
+.card__figure {
+    width: 100%;
+}
+
+.card__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card__title {
+    width: 100%;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.card__text {
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.card__links {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__link {
+    font-size: 1.2em;
+    padding: 1.2em;
+    border-radius: 5px;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 @media (hover: hover) {
