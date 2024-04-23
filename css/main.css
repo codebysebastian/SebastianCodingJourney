@@ -192,7 +192,8 @@
     width: 100%;
     margin: 3em 0;
     padding: 2em;
-    border: 1px solid var(--black);
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
     font-size: 12px;
 }
 
@@ -213,78 +214,88 @@
 
 .project {
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
     display: grid;
     grid-template-rows: auto auto auto auto auto;
-    gap: 5em;
+    gap: 1em;
+    border: 1px solid black;
 }
 
 .project__title {
+    /* border: 1px solid blue; */
     width: 100%;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
+    color: var(--black);
 }
 
 .project__text {
-    width: 100%;
+    /* border: 1px solid green; */
+    width: 95%;
     font-size: 1.5em;
-    text-align: justify;
-    padding: 1em;
+    margin: auto;
 }
 
 .card {
+    border: 1px solid var(--black);
+    font-size: 10px;
     width: 95%;
+    border-radius: 3px;
     margin: auto;
     display: grid;
-    grid-template-rows: 1fr auto;
-    gap: 1em;
+    grid-template-rows: auto auto;
 }
 
 .card__header {
-    width: 70%;
-    height: 15em;
-    margin: auto;
-    background-color: var(--black);
+    width: 100%;
 }
 
 .card__figure {
     width: 100%;
+    border-bottom: 1px solid var(--black);
+    cursor: pointer;
 }
 
 .card__body {
     width: 100%;
+    padding: 1.5em 0;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
 }
 
 .card__title {
     width: 100%;
-    font-size: 1.6em;
+    font-size: 2em;
     text-align: center;
 }
 
 .card__text {
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
+
 .card__links {
-    width: 60%;
-    margin: auto;
+    width: 100%;
+    font-size: 2px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 5em;
+    /* border: 1px solid red; */
 }
 
 .card__link {
-    font-size: 1.2em;
-    padding: 1.2em;
-    border-radius: 5px;
-    background-color: var(--black);
+    border: 2px solid var(--black);
+    font-size: 6em;
+    font-weight: 600;
     color: var(--white);
+    background-color: var(--black);
+    padding: 1em 3em;
 }
+
 
 @media (hover: hover) {
 
@@ -294,6 +305,11 @@
 
     .dropdown-menu__link:hover {
         color: var(--white);
+    }
+
+    .card__link:hover {
+        background-color: var(--white);
+        color: var(--black);
     }
 }
 
