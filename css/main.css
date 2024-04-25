@@ -296,6 +296,39 @@
     padding: 1em 3em;
 }
 
+/* contact me styles */
+
+.contact-me {
+    /* border: 1px solid black; */
+    width: 95%;
+    padding: 2em 0;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1em;
+}
+
+.contact-me__title {
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.contact-me__text {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contact-me__email {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 
 @media (hover: hover) {
 
@@ -310,6 +343,11 @@
     .card__link:hover {
         background-color: var(--white);
         color: var(--black);
+    }
+
+    .contact-me__email:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--black);
     }
 }
 
