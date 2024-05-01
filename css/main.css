@@ -392,18 +392,16 @@
     align-items: start;
     justify-content: center;
     gap: 4em;
-    /* border: 1px solid red; */
 }
 
 .footer__autor {
-    width: 100%;
+    width: auto;
     font-size: 10px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
     gap: 1em;
-    /* border: 1px solid green; */
 }
 
 .footer__name {
@@ -417,7 +415,7 @@
 }
 
 .footer__social {
-    width: 100%;
+    width: auto;
     font-size: 10px;
     display: flex;
     flex-direction: column;
@@ -510,6 +508,15 @@
 
     .about-me {
         font-size: 12px;
+    }
+
+    .footer {
+        padding: 4em 0;
+    }
+
+    .footer__header {
+        flex-direction: row;
+        justify-content: space-between;
     }
 
 }
